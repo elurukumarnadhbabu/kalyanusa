@@ -1,0 +1,36 @@
+/* CSS Document */
+
+#owl-demo .item{
+  background: #42bdc2;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-nav
+{
+	position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+.owl-prev, .owl-next
+{
+	position: absolute;
+    color: inherit;
+    background: none;
+    border: none;
+    z-index: 100;
+	margin: -5px !important;
+}
+.owl-prev 
+{
+    left:0;
+}
+
+.owl-next {
+    right:0;
+}
